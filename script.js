@@ -46,7 +46,7 @@ async function searchCountry(countryName) {
         errorDiv.textContent=error.message;
     } finally {
         spinner.classList.add("hidden");
-        // Hide loading spinner
+
     }
 }
 

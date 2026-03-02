@@ -7,3 +7,21 @@
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
+
+.country-card {
+    background: green; padding: 20px;
+}
+
+.border-grid {
+    display: grid; /* or display: flex */
+    /* Additional layout properties */
+}
+
+.error {
+    color: /* error color */red;
+    /* Additional styling */
+}
+
+.hidden {
+    display: none;
+}
